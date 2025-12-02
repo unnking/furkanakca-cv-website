@@ -1,0 +1,36 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif; /* Daha kalın ve okunaklı bir font ailesi */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Başlık Bölümü */
+.cv-header {
+    background-color: #f4f4f4; /* Hafif bir arka plan rengi */
+    padding: 20px 0;
+    border-bottom: 3px solid #333; /* Altına kalın çizgi */
+    text-align: center; /* Başlığı ortala */
+}
+
+.cv-header h1 {
+    font-size: 2.5em; /* Adı büyük yap */
+    font-weight: 700; /* Çok kalın yap */
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.cv-header .contact-info p {
+    font-size: 1.1em;
+    font-weight: 500; /* Biraz kalın yap */
+    color: #555;
+    margin: 5px 0 0 0; /* Boşlukları ayarla */
+}
+
+/* Sayfayı Ortala */
+.cv-main {
+    max-width: 900px;
+    margin: 20px auto; /* Sayfanın ana içeriğini ortala */
+    padding: 0 20px;
+}
